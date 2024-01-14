@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafío 1 - JavaScript</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>desafio calcular precio</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
 </head>
 
 <body>
@@ -19,12 +19,19 @@
         
               <p>Cantidad:
                 <span class="cantidad">0</span>
-                <button 
+                <button  onclick="sumar()"
                 >+</button>
-                <button
+                <button onclick="restar()"
                 >-</button>
               </p>
+              <p>colores:
+                <button class="azul" onclick="cambiarColor1()"
+                >azul </button>
+                <button class="gris" onclick="cambiarColor2()"
+                >gris </button>
+              </p>
             </div>
+
 
         </div>
     </section>
@@ -33,7 +40,7 @@
         <p>Total a pagar: $<span class="valor-total"></span> </p>
     </div>
 
-    <script src="index.js">
+    <script src="./assets/js/index.js">
       
 
     </script>
